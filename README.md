@@ -60,7 +60,7 @@ data/
   - **SEO: 60** (basic tags in place; could improve further with sitemap, robots.txt, canonical URLs)  
 
 📸 Screenshot included below:  
-![Lighthouse Screenshot](./docs/lighthouse.png)
+!
 
 ### ✅ Preview Flow
 - `status` field in JSON supports `"draft"` vs `"published"`.  

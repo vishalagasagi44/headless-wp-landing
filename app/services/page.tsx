@@ -6,12 +6,16 @@ type Service = {
 };
 
 async function getServices(): Promise<Service[]> {
-  const res = await fetch("http://localhost:3000/services.json", {
-    next: { revalidate: 60 }, // ISR
+  const res = await fetch("/services.json", {
+    next: { revalidate: 60 },
   });
+
+  if (!res.ok) {
+    throw new Error("Failed to fetch services");
+  }
+
   return res.json();
 }
-
 
 export default async function ServicesPage() {
   const services = await getServices();

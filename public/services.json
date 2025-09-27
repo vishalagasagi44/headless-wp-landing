@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Web Development",
+    "description": "Building responsive, accessible, and performant websites.",
+    "status": "published"
+  },
+  {
+    "id": 2,
+    "title": "SEO Optimization",
+    "description": "Improving rankings and visibility across search engines.",
+    "status": "draft"
+  },
+  {
+    "id": 3,
+    "title": "E-commerce",
+    "description": "Headless storefronts with WooCommerce, Shopify, or custom stacks.",
+    "status": "published"
+  }
+]
